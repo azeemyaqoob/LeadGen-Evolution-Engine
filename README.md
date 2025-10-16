@@ -17,7 +17,7 @@ Modern web browser with JavaScript enabled
 # Setup Instructions
 
 # Using Git
-git clone <your-repository-url>
+git clone https://github.com/azeemyaqoob/LeadGen-Evolution-Engine.git
 cd LeadGen Evolution Engine
 npm install
 Create a .env.local file in the project root directory:
