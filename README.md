@@ -38,24 +38,5 @@ npm run dev
 Access the application at http://localhost:3000.
 
 
-Application Architecture
-text
-├── app/
-│   ├── api/
-│   │   ├── businesses-review/     # Primary business analysis endpoint
-│   │   ├── csv-file-export/       # CSV export functionality
-│   │   ├── generate-redesign/     # AI-powered redesign generation
-│   │   └── outreach/              # Campaign management system
-│   ├── redesigns/[filename]/      # Dynamic redesign preview interface
-│   └── page.tsx                   # Main application dashboard
-├── components/
-│   ├── ui/                        # shadcn/ui component library
-│   ├── api-setup-guide.tsx        # API configuration instructions
-│   └── outreach-dashboard.tsx     # Campaign management interface
-├── lib/
-│   ├── business-scraper.ts        # Google Places integration & web scraping
-│   ├── website-scorer.ts          # Website analysis engine
-│   ├── ai-redesign-generator.ts   # Template generation system
-│   └── outreach-system.ts         # Message personalization engine
-└── public/                        # Static resources and assets
+
 
